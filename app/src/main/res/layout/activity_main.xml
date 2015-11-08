@@ -1,0 +1,53 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ru.noties.filldrawable.FillImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fill_image_view_1"
+            app:fiv_drawable="@drawable/ic_android"
+            app:fiv_fillColor="@color/color_1"
+            app:fiv_normalColor="@color/color_1_normal"
+            app:fiv_from="left"
+            app:fiv_percent="33"/>
+
+        <ru.noties.filldrawable.FillImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fill_image_view_2"
+            app:fiv_drawable="@drawable/ic_android"
+            app:fiv_fillColor="@color/color_2"
+            app:fiv_normalColor="@color/color_2_normal"
+            app:fiv_from="top"
+            app:fiv_percent="66"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_2"/>
+
+    </LinearLayout>
+
+</LinearLayout>
